@@ -14,75 +14,67 @@
         android:layout_margin="8dp"
         android:textColor="@color/DarkGreen"
         android:padding="5dp"/>
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:boxStrokeWidth="0dp"
-        app:boxStrokeWidthFocused="0dp"
-        >
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textField_FullName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/nam_family"
-            android:background="@drawable/edit_text_editable"
-            />
 
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
+
+    <EditText
+        android:id="@+id/textField_FullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_family"
+        android:minHeight="48dp"
+        android:paddingHorizontal="16dp"
+        android:layout_margin="8dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+
+        android:background="@drawable/edit_text_editable"
+        />
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:boxStrokeWidth="0dp"
         app:boxStrokeWidthFocused="0dp"
-        >
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textField_ID"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/ID"
-            android:background="@drawable/edit_text_editable"/>
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
+        android:minHeight="48dp"
+        android:paddingHorizontal="16dp"
+        android:id="@+id/textField_ID"
+        android:hint="@string/ID"
+        android:background="@drawable/edit_text_editable"/>
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:boxStrokeWidth="0dp"
-        app:boxStrokeWidthFocused="0dp">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textField_Birthday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Birthday"
-            android:background="@drawable/edit_text_editable"/>
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidthFocused="0dp"
+        android:minHeight="48dp"
+        android:paddingHorizontal="16dp"
+        android:id="@+id/textField_Birthday"
+        android:hint="@string/Birthday"
+        android:background="@drawable/edit_text_editable"/>
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:boxStrokeWidth="0dp"
-        app:boxStrokeWidthFocused="0dp">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textField_Address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Address"
-            android:background="@drawable/edit_text_editable"/>
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidthFocused="0dp"
+        android:minHeight="48dp"
+        android:paddingHorizontal="16dp"
+        android:id="@+id/textField_Address"
+        android:hint="@string/Address"
+        android:background="@drawable/edit_text_editable"/>
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:boxStrokeWidth="0dp"
-        app:boxStrokeWidthFocused="0dp">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textField_zipCode"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/zipCode"
-            android:background="@drawable/edit_text_editable"/>
-    </com.google.android.material.textfield.TextInputLayout>
+        app:boxStrokeWidthFocused="0dp"
+        android:minHeight="48dp"
+        android:paddingHorizontal="16dp"
+        android:id="@+id/textField_zipCode"
+        android:hint="@string/zipCode"
+        android:background="@drawable/edit_text_editable"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
