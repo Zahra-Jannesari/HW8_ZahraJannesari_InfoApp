@@ -92,6 +92,7 @@
                 android:layout_margin="8dp"
                 android:textColor="@color/black"/>
             <RadioGroup
+                android:id="@+id/RadioGroup_Gender"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -100,19 +101,22 @@
                 android:paddingHorizontal="45dp">
 
                 <RadioButton
+                    android:id="@+id/radioButton_Female"
                     android:layout_width="177dp"
                     android:layout_height="wrap_content"
                     android:layoutDirection="rtl"
                     android:text="@string/female" />
 
                 <RadioButton
+                    android:id="@+id/radioButton_Male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layoutDirection="rtl"
                     android:text="@string/male" />
 
             </RadioGroup>
-            <com.google.android.material.button.MaterialButton
+            <Button
+                android:id="@+id/button_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Register"
