@@ -1,18 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstActivity">
-
+    tools:context=".FirstActivity"
+    android:orientation="vertical">
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="فرم ثبت اطلاعات"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textField_FullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nam_family" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textField_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ID" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textField_Birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Birthday" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textField_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Address" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textField_zipCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/zipCode" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Gender"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail" />
+    </RadioGroup>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"/>
+
+</LinearLayout>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">HW8_ZahraJannesari_InfoApp</string>
+    <string name="nam_family">نام و نام خانوادگی<font color='#FF0000'>*</font></string>
+    <string name="ID">کد ملی<font color='#FF0000'>*</font></string>
+    <string name="Birthday">محل تولد<font color='#FF0000'>*</font></string>
+    <string name="Address">آدرس<font color='#FF0000'>*</font></string>
+    <string name="zipCode">کد پستی<font color='#FF0000'>*</font></string>
+    <string name="Gender">جنسیت</string>
+    <string name="female">زن</string>
+    <string name="mail">مرد</string>
+    <string name="Register">ثبت اطلاعات</string>
 </resources>
