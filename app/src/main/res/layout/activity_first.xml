@@ -9,62 +9,92 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/RegisterForm"/>
+        android:text="@string/RegisterForm"
+        android:background="@drawable/green_text_view"
+        android:layout_margin="8dp"
+        android:textColor="@color/DarkGreen"
+        android:padding="5dp"/>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textField_FullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nam_family" />
+            android:hint="@string/nam_family"
+            android:background="@drawable/edit_text_editable"
+            />
+
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textField_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ID" />
+            android:hint="@string/ID"
+            android:background="@drawable/edit_text_editable"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textField_Birthday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Birthday" />
+            android:hint="@string/Birthday"
+            android:background="@drawable/edit_text_editable"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textField_Address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Address" />
+            android:hint="@string/Address"
+            android:background="@drawable/edit_text_editable"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textField_zipCode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/zipCode" />
+            android:hint="@string/zipCode"
+            android:background="@drawable/edit_text_editable"/>
     </com.google.android.material.textfield.TextInputLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Gender"/>
+        android:text="@string/Gender"
+        android:layout_margin="8dp"/>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layoutDirection="rtl">
+        android:layoutDirection="rtl"
+        android:layout_margin="8dp">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -84,6 +114,7 @@
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Register"/>
+        android:text="@string/Register"
+        android:layout_margin="8dp"/>
 
 </LinearLayout>
