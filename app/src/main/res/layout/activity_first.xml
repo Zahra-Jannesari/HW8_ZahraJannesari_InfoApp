@@ -47,7 +47,8 @@
                 android:paddingHorizontal="16dp"
                 android:id="@+id/textField_ID"
                 android:hint="@string/ID"
-                android:background="@drawable/edit_text_editable"/>
+                android:background="@drawable/edit_text_editable"
+                android:inputType="number"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -81,7 +82,9 @@
                 android:paddingHorizontal="16dp"
                 android:id="@+id/textField_zipCode"
                 android:hint="@string/zipCode"
-                android:background="@drawable/edit_text_editable"/>
+                android:background="@drawable/edit_text_editable"
+                android:inputType="number"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
