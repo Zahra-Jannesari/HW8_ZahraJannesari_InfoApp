@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="فرم ثبت اطلاعات"/>
+        android:text="@string/RegisterForm"/>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -63,16 +63,23 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layoutDirection="rtl">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/female"/>
+            android:text="@string/female"
+            android:layoutDirection="rtl"
+            android:layout_marginStart="40dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:layoutDirection="rtl"
+            android:layout_marginStart="160dp"
+            />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mail" />
     </RadioGroup>
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"

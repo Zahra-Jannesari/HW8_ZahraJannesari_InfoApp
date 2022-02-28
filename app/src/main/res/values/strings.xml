@@ -5,8 +5,9 @@
     <string name="Birthday">محل تولد<font color='#FF0000'>*</font></string>
     <string name="Address">آدرس<font color='#FF0000'>*</font></string>
     <string name="zipCode">کد پستی<font color='#FF0000'>*</font></string>
-    <string name="Gender">جنسیت</string>
+    <string name="Gender">جنسیت:</string>
     <string name="female">زن</string>
-    <string name="mail">مرد</string>
+    <string name="male">مرد</string>
     <string name="Register">ثبت اطلاعات</string>
+    <string name="RegisterForm">فرم ثبت اطلاعات</string>
 </resources>
