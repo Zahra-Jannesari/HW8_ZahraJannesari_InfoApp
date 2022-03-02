@@ -40,17 +40,16 @@ class FirstActivity : AppCompatActivity(), RadioGroup.OnCheckedChangeListener {
         if(editTime){
             putDataForEdit()
         }
-        else {
-            infoList = mutableSetOf(binding.textFieldFullName,binding.textFieldID,binding.textFieldBirthday,
-                                    binding.textFieldAddress,binding.textFieldZipCode)
-            binding.RadioGroupGender.setOnCheckedChangeListener(this)
-            binding.buttonRegister.setOnClickListener {
-                if (checkInfo()) {
-                    saveInfoInShared()
-                    goToSecondPage()
-                }
+        infoList = mutableSetOf(binding.textFieldFullName,binding.textFieldID,binding.textFieldBirthday,
+                                binding.textFieldAddress,binding.textFieldZipCode)
+        binding.RadioGroupGender.setOnCheckedChangeListener(this)
+        binding.buttonRegister.setOnClickListener {
+            if (checkInfo()) {
+                saveInfoInShared()
+                goToSecondPage()
             }
         }
+
     }
 
     private fun putDataForEdit() {
