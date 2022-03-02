@@ -10,4 +10,7 @@
     <string name="male">مرد</string>
     <string name="Register">ثبت اطلاعات</string>
     <string name="RegisterForm">فرم ثبت اطلاعات</string>
+    <string name="sho_info_form">مشاهده اطلاعات ثبت شده</string>
+    <string name="change_info">تغییر اطلاعات</string>
+    <string name="newEnter">ورود کاربر جدید</string>
 </resources>
